@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "ZimbraCleaner",
   "version": "0.1.0",
-  "description": "A short description of what it does.",
+  "description": "Extension made for our club's mail which is littered as hell",
   "action": {
     "default_popup": "popup.html"
   }
