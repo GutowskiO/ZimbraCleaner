@@ -1,4 +1,5 @@
 document.getElementById("roll").addEventListener("click", () => {
+    document.getElementById("extra").style.display = "block";
     chrome.tabs.create({
       url: "https://watchbutdonotlearn.github.io/",
     })
