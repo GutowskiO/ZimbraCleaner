@@ -16,11 +16,26 @@
   }
 
   button {
-    padding: 10px 16px;
-    font-size: 16px;
-    font-family: "Sour Gummy", sans-serif;
-    cursor: pointer;
-  }
+  padding: 14px 28px;
+  font-size: 22px;
+  font-family: "Sour Gummy", sans-serif;
+  color: rgb(240, 237, 236);
+  background: linear-gradient(135deg, #fcba2c, #f56d37);
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(250, 21, 21, 0.35);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+button:hover {
+  transform: scale(1.5);
+  box-shadow: 0 6px 18px rgba(11, 127, 173, 0.5);
+}
+
+button:active {
+  transform: scale(0.95);
+}
   #extra {
     display: none;
     margin-top: 12px;
@@ -28,7 +43,7 @@
 </style>    
   </head>
   <body>
-    <button id="roll">Normal button</button>
+    <button id="roll">janek patrz janek kliknij!!!</button>
     <div id="extra">
       <p>Ricked!.</p>
     </div>
