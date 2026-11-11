@@ -3,7 +3,11 @@
   "name": "ZimbraCleaner",
   "version": "0.1.0",
   "description": "Extension made for our club's mail which is littered as hell",
+  "background": {
+    "service_worker": "background.js"
+  },
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "defeault_title":"ZimbraCleaner"
   }
 }
