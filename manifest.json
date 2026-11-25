@@ -3,6 +3,8 @@
   "name": "ZimbraCleaner",
   "version": "0.1.2",
   "description": "Extension made for our club's mail which is littered as hell",
+  "permissions": ["storage"],
+  "host_permissions": ["https://poczta.info.p.lodz.pl/"],
   "background": {
     "service_worker": "background.js"
   },
